@@ -8,7 +8,7 @@ image:
   repository: 555645084058.dkr.ecr.us-east-2.amazonaws.com/aac-gateway
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: main-390068f
+  tag: main-192fa4a
 
 imagePullSecrets: []
 nameOverride: ""
