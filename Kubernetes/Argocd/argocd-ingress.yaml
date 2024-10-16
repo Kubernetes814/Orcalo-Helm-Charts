@@ -10,7 +10,7 @@ metadata:
     nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
 spec:
   rules:
-  - host: argocd.apiswagger.co.uk  # Replace with your domain
+  - host: argocdtest.airapplecart.co.uk  # Replace with your domain
     http:
       paths:
       - path: /
@@ -22,5 +22,5 @@ spec:
               number: 443
   tls:
   - hosts:
-    - argocd.apiswagger.co.uk   # Replace with your domain
+    - argocdtest.airapplecart.co.uk   # Replace with your domain
     secretName: argocd-sec  # Use a valid TLS secret
