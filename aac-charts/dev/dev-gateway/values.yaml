@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: 555645084058.dkr.ecr.us-east-2.amazonaws.com/dev-gateway
+  repository: 412381748849.dkr.ecr.us-east-1.amazonaws.com/dev-gateway
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: main-9379594
+  tag: main-518fa3e
 
 imagePullSecrets: []
 nameOverride: ""
